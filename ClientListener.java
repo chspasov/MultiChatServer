@@ -17,6 +17,8 @@ public class ClientListener extends Thread {
 	private BufferedReader mSocketReader;
 	PrintStream os = null;
 	public static String name;
+	
+//	dsd
 
 	public ClientListener(Socket aSocket,
 			ServerThread aServerMsgDispatcher) throws IOException {
